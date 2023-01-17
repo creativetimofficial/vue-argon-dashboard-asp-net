@@ -67,8 +67,8 @@ You now have 2 applications running consisting of a Vue front end and applicatio
 
 The integration gives you 3 features:
 1. Login. The IDS has 2 default logins to get you started:
-	Username: alice	Password: Pass123$
-	Username: bob	Password: Pass123$
+	Username: alice@email.com	Password: Pass123$
+	Username: bob@email.com	Password: Pass123$
 
 2. Register. This registers a new user in IDS
 
