@@ -1,8 +1,8 @@
-﻿FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim AS base
+﻿FROM bitnami/aspnet-core:6.0.13 AS base
 WORKDIR /app
 EXPOSE 5000
 
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
+FROM bitnami/dotnet-sdk:6.0.405 AS build
 WORKDIR /src
 COPY ["IdentityServer.csproj", "IdentityServer/"]
 
