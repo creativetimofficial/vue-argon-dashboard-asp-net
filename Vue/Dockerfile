@@ -1,4 +1,4 @@
-﻿FROM node:lts-alpine
+﻿FROM node:14.21.2-bullseye-slim
 
 # install simple http server for serving static content
 RUN npm install -g http-server
